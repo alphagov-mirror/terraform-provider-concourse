@@ -181,7 +181,7 @@ var _ = Describe("Team management", func() {
 								    "github:tlwr",
 								  },
 								},
-								"owners": {
+								"owner": {
 								  "users": {
 								    "github:terraform-provider-concourse",
 								  },
