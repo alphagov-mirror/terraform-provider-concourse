@@ -87,8 +87,8 @@ var _ = Describe("Team management", func() {
 					Config: `resource "concourse_team" "a_team" {
 									   team_name = "team-a"
 									   owners = [
-									     "user:github:tlwr"
-									     "user:github:terraform-provider-concourse"
+									     "user:github:tlwr",
+									     "user:github:terraform-provider-concourse",
 									   ]
 									}`,
 
@@ -202,8 +202,8 @@ var _ = Describe("Team management", func() {
 									   team_name = "team-a"
 
 										 owners = [
-										   "user:github:terraform-provider-concourse"
-										   "group:github:alphagov:paas-team"
+										   "user:github:terraform-provider-concourse",
+										   "group:github:alphagov:paas-team",
 										 ]
 									}`,
 
